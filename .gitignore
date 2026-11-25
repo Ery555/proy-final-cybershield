@@ -1,0 +1,11 @@
+.vscode/
+node_modules/
+__pycache__/
+# Modelos de PyTorch
+*.pt
+*.pth
+
+# Modelos y objetos serializados de Scikit-learn / Joblib
+*.joblib
+*.pkl
+*.pickle

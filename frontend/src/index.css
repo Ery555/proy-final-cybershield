@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@keyframes flujoPaquetes {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+
+.enlace-activo {
+  stroke-dasharray: 6 6;
+  animation: flujoPaquetes 0.8s linear infinite;
+}
