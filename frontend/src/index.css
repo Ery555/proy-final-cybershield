@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+body {
+  background-color: #e2e8f0;
+  color: #0f172a;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
 @keyframes flujoPaquetes {
   to {
     stroke-dashoffset: -24;
@@ -8,5 +14,5 @@
 
 .enlace-activo {
   stroke-dasharray: 6 6;
-  animation: flujoPaquetes 0.8s linear infinite;
+  animation: flujoPaquetes 0.75s linear infinite;
 }
